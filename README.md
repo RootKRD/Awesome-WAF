@@ -3775,7 +3775,7 @@ data:text/html,<form action=https://brutelogic.com.br/xss-cp.php method=post>
 ```
 
 ### URLScan
-- [Directory Traversal](https://github.com/0xInfection/Awesome-WAF/blob/master/papers/Beyond%20SQLi%20-%20Obfuscate%20and%20Bypass%20WAFs.txt#L557) by [@ZeQ3uL](http://www.exploit-db.com/author/?a=1275) (<= v3.1) (Only on ASP.NET)
+- [Directory Traversal](https://github.com/RootKrd/Awesome-WAF/blob/master/papers/Beyond%20SQLi%20-%20Obfuscate%20and%20Bypass%20WAFs.txt#L557) by [@ZeQ3uL](http://www.exploit-db.com/author/?a=1275) (<= v3.1) (Only on ASP.NET)
 ```
 http://host.com/test.asp?file=.%./bla.txt
 ```
