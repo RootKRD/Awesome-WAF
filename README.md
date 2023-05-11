@@ -3960,6 +3960,3 @@ User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
 - [Playing Around with WAFs](presentations/Playing%20Around%20with%20WAFs.pdf) - A small presentation about WAF profiling and playing around with them from [Defcon 16](http://www.defcon.org/html/defcon-16/dc-16-post.html).
 - [A Forgotten HTTP Invisibility Cloak](presentation/A%20Forgotten%20HTTP%20Invisibility%20Cloak.pdf) - A presentation about techniques that can be used to bypass common WAFs from [BSides Manchester](https://www.bsidesmcr.org.uk/).
 - [Building Your Own WAF as a Service and Forgetting about False Positives](presentations/Building%20Your%20Own%20WAF%20as%20a%20Service%20and%20Forgetting%20about%20False%20Positives.pdf) - A presentation about how to build a hybrid mode waf that can work both in an out-of-band manner as well as inline to reduce false positives and latency [Auscert2019](https://conference.auscert.org.au/).
-
-## Credits & License:
-Initial fingerprint compilation and bypasses were put together by [Pinaki](https://twitter.com/0xInfection) [(0xInfection)](https://github.com/RootKrd), but now it largely remains as a community supported repository. Awesome-WAF is licensed under the [Apache 2.0 License](LICENSE). 
