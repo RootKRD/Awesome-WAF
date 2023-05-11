@@ -3,9 +3,8 @@
 >
 > __Foreword:__ This was originally my own collection on WAFs. I am open-sourcing it in the hope that it will be useful for pentesters and researchers out there. You might want to keep this repo on a watch, since it will be updated regularly. "The community just learns from each other." __#SharingisCaring__
 
-![Main Logo](images/how-wafs-work.png 'How wafs work')
+![Web-Server-vs -Application-Server](https://github.com/RootKRD/Awesome-WAF/assets/109300095/dd00adad-7fee-457f-b829-af362f141265)
 
-![11_AWS_waf_what_it_is_3_75023d5b21](https://github.com/RootKRD/Awesome-WAF/assets/109300095/e84db6d9-9974-4ac7-835d-b70cf86d9a7c)
 
 __A Concise Definition:__ A web application firewall is a security policy enforcement point positioned between a web application and the client endpoint. This functionality can be implemented in software or hardware, running in an appliance device, or in a typical server running a common operating system. It may be a stand-alone device or integrated into other network components. *(Source: [PCI DSS IS 6.6](https://www.pcisecuritystandards.org/documents/information_supplement_6.6.pdf))*
 
