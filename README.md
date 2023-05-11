@@ -3819,7 +3819,7 @@ http://host.com/test.asp?file=.%./bla.txt
 <details ontoggle=alert(1)>
 <div contextmenu="xss">Right-Click Here<menu id="xss" onshow="alert(1)">
 ```
-- [SQLi Bypass](https://github.com/0xInfection/Awesome-WAF/blob/master/papers/Beyond%20SQLi%20-%20Obfuscate%20and%20Bypass%20WAFs.txt#L562) by [@ZeQ3uL](http://www.exploit-db.com/author/?a=1275)
+- [SQLi Bypass](https://github.com/RootKrd/Awesome-WAF/blob/master/papers/Beyond%20SQLi%20-%20Obfuscate%20and%20Bypass%20WAFs.txt#L562) by [@ZeQ3uL](http://www.exploit-db.com/author/?a=1275)
 ```
 10 a%nd 1=0/(se%lect top 1 ta%ble_name fr%om info%rmation_schema.tables)
 ```
@@ -3962,4 +3962,4 @@ User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
 - [Building Your Own WAF as a Service and Forgetting about False Positives](presentations/Building%20Your%20Own%20WAF%20as%20a%20Service%20and%20Forgetting%20about%20False%20Positives.pdf) - A presentation about how to build a hybrid mode waf that can work both in an out-of-band manner as well as inline to reduce false positives and latency [Auscert2019](https://conference.auscert.org.au/).
 
 ## Credits & License:
-Initial fingerprint compilation and bypasses were put together by [Pinaki](https://twitter.com/0xInfection) [(0xInfection)](https://github.com/0xinfection), but now it largely remains as a community supported repository. Awesome-WAF is licensed under the [Apache 2.0 License](LICENSE). 
+Initial fingerprint compilation and bypasses were put together by [Pinaki](https://twitter.com/0xInfection) [(0xInfection)](https://github.com/RootKrd), but now it largely remains as a community supported repository. Awesome-WAF is licensed under the [Apache 2.0 License](LICENSE). 
